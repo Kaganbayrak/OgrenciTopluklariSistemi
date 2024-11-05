@@ -1,5 +1,12 @@
 # OgrenciTopluklariSistemi
 Fırat Üniversitesi BMU329 Veri Tabanı Sistemleri dersi 2. Öğretim 7. Grup "Öğrenci Toplulukları Yönetim Sistemi" projesidir.
+
+[Mehmet Kağan Bayrak-225260057](https://github.com/Kaganbayrak)
+
+[Nurgül Bedir225260013](https://github.com/nurgulbedir) 
+
+[Ayberk Erdem225260041](https://github.com/ayberkerdm)
+
 ********************
 1. Varlıklar ve Nitelikleri
 Projede yer alacak varlıklar ve bunların nitelikleri şunlardır:
@@ -42,9 +49,9 @@ Projede yer alacak varlıklar ve bunların nitelikleri şunlardır:
    
     Etkinlik-Sponsor İlişkisi: Bir etkinliğin birden fazla sponsoru olabilir, her sponsor birden fazla etkinliği destekleyebilir. (1-n)
    
-    Etkinlik-Organizatör İlişkisi: Etkinlik organizatörleri, etkinlikler ile n ilişkisi içerisindedir.
+    Etkinlik-Organizatör İlişkisi: Etkinlik organizatörleri, etkinlikler ile 1-n ilişkisi içerisindedir.***
    
-    Topluluk-Üye İlişkisi: Bir topluluğa birden fazla üye katılabilir, her üye birden fazla topluluğa katılabilir. (n)
+    Topluluk-Üye İlişkisi: Bir topluluğa birden fazla üye katılabilir, her üye birden fazla topluluğa katılabilir. (n-m)
     
 
 4. Kullanıcı Rolleri ve Gereksinimler
@@ -55,4 +62,3 @@ Projede yer alacak varlıklar ve bunların nitelikleri şunlardır:
     Yönetici: Sistemdeki tüm toplulukları ve etkinlikleri düzenleyebilir, gerekirse etkinlikleri yayından kaldırabilir.
 
 
-Mehmet Kağan Bayrak | Nurgül Bedir | Ayberk Erdem
