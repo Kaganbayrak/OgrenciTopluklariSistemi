@@ -28,27 +28,26 @@ Projede yer alacak varlıklar ve bunların nitelikleri şunlardır:
 2. Varlıklar Arasındaki İlişkiler ve Sayısal Kısıtlamalar
     Belirlenen varlıklar arasında çeşitli ilişkiler ve bu ilişkilerde bazı sayısal kısıtlamalar mevcuttur:
     
-    Bölge-Şehir İlişkisi: Bir bölge birden fazla şehre sahip olabilir, ancak her şehir yalnızca bir bölgeye aittir. (1-n
-    )
-    Şehir-Üniversite İlişkisi: Her şehirde birden fazla üniversite olabilir, fakat her üniversite yalnızca bir şehirde bulunur. (1
-    )
-    Üniversite-Bölüm İlişkisi: Bir üniversitede birden fazla bölüm yer alabilir, ancak her bölüm yalnızca bir üniversiteye aittir. (1
-    )
-    Bölüm-Akademisyen İlişkisi: Bir bölümde birden fazla akademisyen çalışabilir, fakat bir akademisyen yalnızca bir bölümde bulunur. (1
-    )
-    Üniversite-Öğrenci Topluluğu İlişkisi: Her üniversitede birden fazla öğrenci topluluğu olabilir, ancak her topluluk yalnızca bir üniversiteye bağlıdır. (1
-    )
-    Topluluk-Etkinlik İlişkisi: Her topluluk birden fazla etkinlik düzenleyebilir, ancak her etkinlik yalnızca bir topluluğa aittir. (1
-    )
-    Etkinlik-Sponsor İlişkisi: Bir etkinliğin birden fazla sponsoru olabilir, her sponsor birden fazla etkinliği destekleyebilir. (n
-    )
-    Etkinlik-Organizatör İlişkisi: Etkinlik organizatörleri, etkinlikler ile n
-    ilişkisi içerisindedir.
-    Topluluk-Üye İlişkisi: Bir topluluğa birden fazla üye katılabilir, her üye birden fazla topluluğa katılabilir. (n
-    )
+    Bölge-Şehir İlişkisi: Bir bölge birden fazla şehre sahip olabilir, ancak her şehir yalnızca bir bölgeye aittir. (1-n)
+   
+    Şehir-Üniversite İlişkisi: Her şehirde birden fazla üniversite olabilir, fakat her üniversite yalnızca bir şehirde bulunur. (1-n)
+   
+    Üniversite-Bölüm İlişkisi: Bir üniversitede birden fazla bölüm yer alabilir, ancak her bölüm yalnızca bir üniversiteye aittir. (1-n)
+   
+    Bölüm-Akademisyen İlişkisi: Bir bölümde birden fazla akademisyen çalışabilir, fakat bir akademisyen yalnızca bir bölümde bulunur. (1-n)
+   
+    Üniversite-Öğrenci Topluluğu İlişkisi: Her üniversitede birden fazla öğrenci topluluğu olabilir, ancak her topluluk yalnızca bir üniversiteye bağlıdır. (1-n)
+   
+    Topluluk-Etkinlik İlişkisi: Her topluluk birden fazla etkinlik düzenleyebilir ve birden fazla topluluk bir etkinliği düzenleyebilir (1-n)
+   
+    Etkinlik-Sponsor İlişkisi: Bir etkinliğin birden fazla sponsoru olabilir, her sponsor birden fazla etkinliği destekleyebilir. (1-n)
+   
+    Etkinlik-Organizatör İlişkisi: Etkinlik organizatörleri, etkinlikler ile n ilişkisi içerisindedir.
+   
+    Topluluk-Üye İlişkisi: Bir topluluğa birden fazla üye katılabilir, her üye birden fazla topluluğa katılabilir. (n)
     
 
-3. Kullanıcı Rolleri ve Gereksinimler
+4. Kullanıcı Rolleri ve Gereksinimler
     Proje kullanıcı rolleri kapsamında, her bir rolün yetki ve sorumlulukları ile ilgili gereksinimlere sahiptir:
     
     Öğrenci: İlgilendiği öğrenci topluluklarına üye olabilir, etkinliklere katılabilir ve topluluk bilgilerini görebilir.
